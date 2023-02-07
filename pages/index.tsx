@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
+import Sidebar from "../components/Sidebar";
+
 /**
  * The Home component for the Spotify Remix app.
  *
@@ -15,10 +17,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>About Page</h1>
+        <Sidebar />
+        {/* Center */}
       </main>
 
-      <footer className=""></footer>
+      <div>{/* Player */}</div>
     </div>
   );
 };

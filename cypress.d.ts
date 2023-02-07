@@ -9,13 +9,6 @@ import { mount } from "cypress/react";
  */
 declare global {
   namespace Cypress {
-    interface Chainable {
-      /**
-       * The mount method for Cypress.
-       *
-       * @type {function}
-       */
-      mount: typeof mount;
-    }
+    interface Chainable {}
   }
 }

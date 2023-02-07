@@ -17,8 +17,13 @@
 
 - JWT Token
 - NextJS 13
-- Next Auth
 - Recoil
+- spotify api
+- oauth jwt
+- access/refresh
+- tokens
+- NextAuth
+-
 
 ## Building
 
