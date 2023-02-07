@@ -9,6 +9,10 @@
 
 ## Overview
 
+## Prerequisites
+
+### Spotify Developers
+
 ## Technology Stack
 
 - JWT Token
