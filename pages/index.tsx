@@ -1,7 +1,11 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type { NextPage } from "next";
+import Head from "next/head";
 
+/**
+ * The Home component for the Spotify Remix app.
+ *
+ * @returns {JSX.Element} - The rendered Home component.
+ */
 const Home: NextPage = () => {
   return (
     <div className="">
@@ -10,14 +14,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main></main>
 
-      </main>
-
-      <footer className="">
-      </footer>
+      <footer className=""></footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
