@@ -8,13 +8,15 @@ import Head from "next/head";
  */
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div>
       <Head>
         <title>Spotify Remix</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main></main>
+      <main>
+        <h1>About Page</h1>
+      </main>
 
       <footer className=""></footer>
     </div>

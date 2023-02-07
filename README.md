@@ -8,6 +8,18 @@
 - [Testing](#testing)
 
 ## Overview
+
 ## Technology Stack
+
+- JWT Token
+- NextJS 13
+- Next Auth
+- Recoil
+
 ## Building
+
+```bash
+npx create-next-app e with-tailwindcss
+```
+
 ## Testing
