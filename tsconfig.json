@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    // Specifies the ECMAScript target version to which the code should be compiled, in this case "ES6"
+    "target": "ES6",
+    // List of library files to be included in the compilation
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    // Allow JavaScript files to be included in the compilation
+    "allowJs": true,
+    // Skip type checking of declaration files
+    "skipLibCheck": true,
+    // Enables interop with CommonJS and ES6 modules
+    "esModuleInterop": true,
+    // Allows default exports from modules with just one export
+    "allowSyntheticDefaultImports": true,
+    // Enables experimental support for ES7 decorators
+    "experimentalDecorators": true,
+    // Enables all strict type-checking options
+    "strict": true,
+    // Enforces a consistent naming convention for file names
+    "forceConsistentCasingInFileNames": true,
+    // Disallows falling through in switch statement
+    "noFallthroughCasesInSwitch": true,
+    // Specifies module code generation, in this case "esnext"
+    "module": "esnext",
+    // Specifies the module resolution strategy, in this case "node"
+    "moduleResolution": "node",
+    // Resolves JSON files as modules
+    "resolveJsonModule": true,
+    // Treats every file as an isolated module
+    "isolatedModules": true,
+    // Prevents the emission of emitted files
+    "noEmit": true,
+    // Preserves, in the output, the original form of JSX
+    "jsx": "preserve",
+    // Enables incremental builds
+    "incremental": true
+  },
+  // List of files or directories to include in the compilation
+  "include": [
+    "components",
+    "decorators",
+    "models",
+    "pages",
+    "typings"
+  ],
+  // List of files or directories to exclude from the compilation
+  "exclude": [
+    "node_modules"
+  ]
+}
