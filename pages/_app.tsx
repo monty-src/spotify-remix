@@ -8,11 +8,11 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 
 /**
- * A component that renders the given component with its page props.
+ * App component
  *
  *
- * @param {AppProps} props - The properties for the component.
- * @returns {JSX.Element} - The rendered component.
+ * @param {AppProps}
+ * @returns {JSX.Element}
  */
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return <Component {...pageProps} />;
